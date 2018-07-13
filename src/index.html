@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Inicia sesión</h1>
+    <button id="login">
+        Inicia con Google
+    </button>
+    <div id="root"></div>
+
+    <!--LIBRERIA DE JQUERY-->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <!--PERMITE TRABAJAR CON FIRE BASE-->
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCAqC6yR2WZZP4YPZWkOnrHUHR2rIJBbtc",
+    authDomain: "red-social-developers.firebaseapp.com",
+    databaseURL: "https://red-social-developers.firebaseio.com",
+    projectId: "red-social-developers",
+    storageBucket: "red-social-developers.appspot.com",
+    messagingSenderId: "825889803259"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="js/index.js"></script>
+</body>
+</html>
