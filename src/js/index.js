@@ -26,7 +26,6 @@ btnLogin.addEventListener('click', event => {
     //SIGN IN
     let promise = auth.signInWithEmailAndPassword(email, pwsd);
     promise.catch(event => console.log(event.message));
-    alert('BIENVENIDX');
     
 });
 //Añadir evento signup
