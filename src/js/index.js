@@ -1,5 +1,5 @@
 (function(){
-// Initialize Firebase
+// Initializar Firebase
 var config = {
     apiKey: "AIzaSyCAqC6yR2WZZP4YPZWkOnrHUHR2rIJBbtc",
     authDomain: "red-social-developers.firebaseapp.com",
@@ -18,18 +18,19 @@ let btnSignUp = document.getElementById('btnSignUp');
 let btnLogout = document.getElementById('btnLogout');
 
   //EVENTO LOGIN
-btnLogin.addEventListener('click', event => {
+btnLogin.addEventListener('click', e => {
     //OBTENER EMAIL Y PASSWORD
     let email = txtEmail.value;
     let pwsd = txtPassword.value;
     let auth = firebase.auth();
     //SIGN IN
     let promise = auth.signInWithEmailAndPassword(email, pwsd);
-    promise.catch(event => console.log(event.message));
+    promise.catch(e => console.log(e.message));
+    window.location.href = 'otraPagina.html';
     
 });
 //Añadir evento signup
-btnSignUp.addEventListener('click', event =>{
+btnSignUp.addEventListener('click', e =>{
     //OBTENER EMAIL Y PASSWORD
     //Falta: Comprobar que el email es real
     let email = txtEmail.value;
@@ -37,27 +38,26 @@ btnSignUp.addEventListener('click', event =>{
     let auth = firebase.auth();
     //SIGN IN
     let promise = auth.createUserWithEmailAndPassword(email, pwsd);
-    promise.catch(event => console.log(event.message));
+    promise.catch(e => console.log(e.message));
     
 });
 
-btnLogout.addEventListener('click', event => {
+btnLogout.addEventListener('click', e => {
     firebase.auth().signOut();
 });
 
 //AÑADIR UN LISTENER EN TIEMPO REAL
 
 firebase.auth().onAuthStateChanged( firebaseUser => {
-    if(firebaseUser)
-    {
-     console.log(firebaseUser);
-     document.getElementById('btnLogout').style.display='inline';
-    }
-    else
-    {
-     console.log('No has iniciado Sesión');
-     document.getElementById('btnLogout').style.display='none';
-    }
+    if (firebaseUser) {
+        console.log(firebaseUser);
+        btnLogout.style.display = "inline";
+        //window.location.href = 'otraPagina.html';
+      }
+      else {
+        console.log('no logeado');
+        btnLogout.style.display = "none";
+      }
   });
 }());
 
@@ -71,5 +71,7 @@ $('#login').click(function(){
     .then(function(result)//promesa cuando se ejecuta 
      {
          console.log(result.user);
+         window.location.href = 'otraPagina.html';
      });
+     
 });
