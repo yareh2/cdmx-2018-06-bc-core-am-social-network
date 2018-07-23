@@ -1,77 +1,139 @@
-(function(){
-// Initializar Firebase
-var config = {
-    apiKey: "AIzaSyCAqC6yR2WZZP4YPZWkOnrHUHR2rIJBbtc",
-    authDomain: "red-social-developers.firebaseapp.com",
-    databaseURL: "https://red-social-developers.firebaseio.com",
-    projectId: "red-social-developers",
-    storageBucket: "red-social-developers.appspot.com",
-    messagingSenderId: "825889803259"
-  };
-  firebase.initializeApp(config);
+//FUNCION PARA EL REGISTRO DE USUARIOS
+let register = () => {
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    firebase.auth().createUserWithEmailAndPassword(email, password)
+    .then(function(){
+        verification();
+    })
+    .catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        alert(errorCode);
+        alert(errorMessage);
+        // ...
+      });
+}
+//FUNCION PARA EL ACCESO DE USUARIOS
+let entry = () => {
+    let email = document.getElementById('email2').value;
+    let password = document.getElementById('password2').value;
+    firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // ...
+        alert(errorCode);
+        alert(errorMessage);
+      });
+}
+//VERIFICACIÓN DE LA PAGINA WEB
+let observer = () =>{
+    firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+            console.log('Existe usuario activo');
+            //SE EJECUTA LA FUNCION DEL CONTENIDO, UNA VEZ QUE SE INICIA SESION
+            container(user);
+          // User is signed in.
+          var displayName = user.displayName;
+          var email = user.email;
+          console.log('*********');
+          console.log(user.emailVerified);
+          console.log('*********');
+          var emailVerified = user.emailVerified;
+          var photoURL = user.photoURL;
+          var isAnonymous = user.isAnonymous;
+          var uid = user.uid;
+          var providerData = user.providerData;
+          // ...
+        } else {
+          // User is signed out.
+          console.log('No existe usuario activo');
+          // ...
+        }
+      });
+}
+observer();
+//FUNCIÓN QUE MUESTRA EL CONTENIDO
+let container = (user) =>{
+    var user = user;
+    if(user.emailVerified){
+        let content = document.getElementById('content');
+        content.innerHTML=
+        `<p>Bienvenido</p>
+        <img src="result.user.photoURL">
+        <button onclick="closed()">Cerrar Sesión</button>`;
+    }
 
-  //OBTENER ELEMENTOS
-let txtEmail = document.getElementById('txtEmail');
-let txtPassword = document.getElementById('txtPassword');
-let btnLogin = document.getElementById('btnLogin');
-let btnSignUp = document.getElementById('btnSignUp');
-let btnLogout = document.getElementById('btnLogout');
+}
+//FUNCION CERRAR SESIÓN
+let closed = () =>{
+    firebase.auth().signOut()
+    .then(function(){
+        console.log('saliendo...');
+    })
+    .catch(function(error){
+        console.log(error);
+    })
+}
+//FUNCION PARA LA VERIFICACION DEL CORREO
+let verification = () =>{
+    var user = firebase.auth().currentUser;
 
-  //EVENTO LOGIN
-btnLogin.addEventListener('click', e => {
-    //OBTENER EMAIL Y PASSWORD
-    let email = txtEmail.value;
-    let pwsd = txtPassword.value;
-    let auth = firebase.auth();
-    //SIGN IN
-    let promise = auth.signInWithEmailAndPassword(email, pwsd);
-    promise.catch(e => console.log(e.message));
-    window.location.href = 'otraPagina.html';
-    
+user.sendEmailVerification()
+.then(function() {
+  // Email sent.
+  console.log('Enviando correo...');
+})
+.catch(function(error) {
+  // An error happened.
+  console.log(error);
 });
-//Añadir evento signup
-btnSignUp.addEventListener('click', e =>{
-    //OBTENER EMAIL Y PASSWORD
-    //Falta: Comprobar que el email es real
-    let email = txtEmail.value;
-    let pwsd = txtPassword.value;
-    let auth = firebase.auth();
-    //SIGN IN
-    let promise = auth.createUserWithEmailAndPassword(email, pwsd);
-    promise.catch(e => console.log(e.message));
-    
-});
-
-btnLogout.addEventListener('click', e => {
-    firebase.auth().signOut();
-});
-
-//AÑADIR UN LISTENER EN TIEMPO REAL
-
-firebase.auth().onAuthStateChanged( firebaseUser => {
-    if (firebaseUser) {
-        console.log(firebaseUser);
-        btnLogout.style.display = "inline";
-        //window.location.href = 'otraPagina.html';
-      }
-      else {
-        console.log('no logeado');
-        btnLogout.style.display = "none";
-      }
-  });
-}());
-
-//LOGIN
-//PROVEDOR DEL SERVICIO
-var provider = new firebase.auth.GoogleAuthProvider();
-//jquery sujeta la etiqueta root
-$('#login').click(function(){
+}
+//LOGIN CON GOOGLE
+let loginGoogle = () =>{
+    var provider = new firebase.auth.GoogleAuthProvider();
     firebase.auth()
-    .signInWithPopup(provider)//levantar una ventana y logear con google
-    .then(function(result)//promesa cuando se ejecuta 
-     {
-         console.log(result.user);
-         window.location.href = 'otraPagina.html';
-     });
-     
-});
+    .signInWithPopup(provider)
+    .then(function(result) {
+        console.log(result.user);
+        document.getElementById('btnGoogle').style.display = 'none';
+        // This gives you a Google Access Token. You can use it to access the Google API.
+        var token = result.credential.accessToken;
+        // The signed-in user info.
+        var user = result.user;
+        // ...
+      }).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // The email of the user's account used.
+        var email = error.email;
+        // The firebase.auth.AuthCredential type that was used.
+        var credential = error.credential;
+        // ...
+      });
+}
+/*//LOGIN CON FACEBOOK
+let loginFace = () =>{
+    var provider = new firebase.auth.FacebookAuthProvider();
+    firebase.auth().signInWithPopup(provider)
+    .then(function(result) {
+        console.log(result.user);
+        // This gives you a Facebook Access Token. You can use it to access the Facebook API.
+        var token = result.credential.accessToken;
+        // The signed-in user info.
+        var user = result.user;
+        // ...
+      }).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // The email of the user's account used.
+        var email = error.email;
+        // The firebase.auth.AuthCredential type that was used.
+        var credential = error.credential;
+        // ...
+      });
+}*/

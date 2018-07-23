@@ -5,34 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCAqC6yR2WZZP4YPZWkOnrHUHR2rIJBbtc",
+    authDomain: "red-social-developers.firebaseapp.com",
+    databaseURL: "https://red-social-developers.firebaseio.com",
+    projectId: "red-social-developers",
+    storageBucket: "red-social-developers.appspot.com",
+    messagingSenderId: "825889803259"
+  };
+  firebase.initializeApp(config);
+</script>
 </head>
 <body>
-    <h1>Inicia sesión</h1>
-    <div class="container">
-      <input id="txtEmail" type="email" placeholder="Email">
-      <input id="txtPassword" type="password" placeholder="Contraseña">
-      <button id="btnLogin" class"btn btn-action">Login</button>
-      <button id="btnSignUp" class"btn btn-secondary">Registrarse</button>
-      <button id="btnLogout" class"btn btn-action hide">Logout</button>
-    </div>
-    <button id="login">
-        Inicia con Google
+    <h3>Registro de Usuarios</h3>
+    <input id="email" type="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="register()">
+        Enviar
     </button>
-    <div id="root"></div>
-    <div class="container">
 
-    <!--LIBRERIA DE JQUERY hola-->
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <!--PERMITE TRABAJAR CON FIRE BASE-->
-  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-auth.js"></script>
-<script src="js/index.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <h3>Inicio de sesión</h3>
+    <input id="email2" type="email" placeholder="Email">
+    <input id="password2" type="password" placeholder="Password">
+    <button onclick="entry()">
+        Iniciar
+    </button>
+    <div id="content">
+    </div>
+    <button id="btnGoogle" onclick="loginGoogle()">
+        Iniciar sesión con Google
+    </button>
+    <!--<button onclick="loginFace()">
+            Iniciar sesión con Facebook
+    </button>-->
+    <script src="js/index.js"></script>
 </body>
 </html>
