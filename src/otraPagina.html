@@ -7,9 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <p>Bienvedido</p>
-    </div>
+    <p>Bienvenido</p>
+    <button id="btnClosed">Cerrar Sesión</button>
 
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCAqC6yR2WZZP4YPZWkOnrHUHR2rIJBbtc",
+    authDomain: "red-social-developers.firebaseapp.com",
+    databaseURL: "https://red-social-developers.firebaseio.com",
+    projectId: "red-social-developers",
+    storageBucket: "red-social-developers.appspot.com",
+    messagingSenderId: "825889803259"
+  };
+  firebase.initializeApp(config);
+</script>
+
+    <script src="js/app.js"></script>
 </body>
 </html>

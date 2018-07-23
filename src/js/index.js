@@ -53,29 +53,23 @@ let observer = () =>{
           // ...
         }
       });
+
 }
 observer();
 //FUNCIÓN QUE MUESTRA EL CONTENIDO
 let container = (user) =>{
+    // location.href = 'otraPagina.html';
     var user = user;
+    location.href = 'otraPagina.html';
     if(user.emailVerified){
-        let content = document.getElementById('content');
-        content.innerHTML=
-        `<p>Bienvenido</p>
-        <img src="result.user.photoURL">
-        <button onclick="closed()">Cerrar Sesión</button>`;
+        // let content = document.getElementById('content');
+        // content.innerHTML=
+        // `<p>Bienvenido</p>
+        // <img src="result.user.photoURL">
+        // <button onclick="closed()">Cerrar Sesión</button>`;
+        
     }
 
-}
-//FUNCION CERRAR SESIÓN
-let closed = () =>{
-    firebase.auth().signOut()
-    .then(function(){
-        console.log('saliendo...');
-    })
-    .catch(function(error){
-        console.log(error);
-    })
 }
 //FUNCION PARA LA VERIFICACION DEL CORREO
 let verification = () =>{
@@ -114,6 +108,7 @@ let loginGoogle = () =>{
         var credential = error.credential;
         // ...
       });
+
 }
 /*//LOGIN CON FACEBOOK
 let loginFace = () =>{
