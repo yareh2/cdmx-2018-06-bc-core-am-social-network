@@ -7,34 +7,42 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+    <title>muro!</title>
     <!--firestone -->
     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
   </head>
   <body>
 
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news"><button id="btnClosed">Cerrar Sesión</button></a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <p>Bienvenido</p>
     <button id="btnClosed">Cerrar Sesión</button>
 
     <div class="container">
-      <h1>Agregar usuarios</h1>
+      <h1>Comentarios</h1>
       <input type="text" id="nombre"placeholder="nombre"class="form-control my-3">
-      <input type="text" id="apellido"placeholder="apellido"class="form-control my-3">
-      <input type="text" id="fecha"placeholder="fecha"class="form-control my-3">
+      <div class="custom-file">
+  <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+  <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+</div>
+</div>S
+
       <button class="btn btn-info"id="boton"onclick="guardar()">Guardar</button>
 
       <table class="table my-3">
   <thead>
-    <tr>
-      <th scope="col">id</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Born</th>
-      <th scope="col">Eliminar</th>
-      <th scope="col">Editar</th>
-    </tr>
+
   </thead>
   <tbody id="tabla">
 
