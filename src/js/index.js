@@ -67,7 +67,7 @@ let container = (user) =>{
         // `<p>Bienvenido</p>
         // <img src="result.user.photoURL">
         // <button onclick="closed()">Cerrar Sesión</button>`;
-        
+
     }
 
 }

@@ -1,7 +1,7 @@
 firebase.initializeApp({
-  apiKey: "AIzaSyCAqC6yR2WZZP4YPZWkOnrHUHR2rIJBbtc",
-  authDomain: "red-social-developers.firebaseapp.com",
-projectId: "red-social-developers"
+  apiKey: "AIzaSyDIemGhQtmJ53XXxlrRvQ6qFeDebKVn6dY",
+  authDomain: "proyectocrud-1a69a.firebaseapp.com",
+  projectId: "proyectocrud-1a69a"
 });
 
 // Initialize Cloud Firestore through Firebase
