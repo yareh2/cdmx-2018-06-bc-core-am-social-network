@@ -4,9 +4,9 @@ firebase.initializeApp({
   projectId: "red-social-developers"
 });
 
-// Initialize Cloud Firestore through Firebase
+// INICIALIZACION DE CLOUD FIRESTORE THROUGH FIREBASE
 var db = firebase.firestore();
-
+//FUNCION PARA GUARDAR LOS COMENTARIOS
 function guardar(){
     let nombre = document.getElementById('nombre').value;
 
@@ -25,11 +25,9 @@ function guardar(){
   });
 
 }
-
-//Leer documentos
-
+//LEER COMENTARIOS
 let tabla =document.getElementById('tabla')
-//onSnapshot hace que guarde los datos en tiempo rel
+//onSnapshot hace que guarde los datos en tiempo real
 db.collection("users").onSnapshot((querySnapshot) => {
   tabla.innerHTML = "";
   //se va air repitiendo por cada dato que este en el user
@@ -40,14 +38,14 @@ db.collection("users").onSnapshot((querySnapshot) => {
 
           <td>${doc.data().first}</td>
 
-          <button class="btn btn-danger"onclick ="eliminar('${doc.id}')">Eliminar</button>
-          <button class="btn btn-warning"onclick ="editar('${doc.id}','${doc.data().first}','${doc.data().last}','${doc.data().born}')">Editar</button>d>
+          <button class="btn btn-info my-2 my-sm-0 btn-sm ml-2"onclick ="eliminar('${doc.id}')"><span class="glyphicon glyphicon-trash"></span></button>
+          <button class="btn btn-info my-2 my-sm-0 btn-sm ml-2"onclick ="editar('${doc.id}','${doc.data().first}','${doc.data().last}','${doc.data().born}')"><span class="glyphicon glyphicon-pencil"></span></button>
 
 `
     });
 });
 
-// borrar datos
+//BORRAR COMENTARIOS
 function eliminar(id){
   db.collection("users").doc(id).delete().then(function() {
       console.log("Document successfully deleted!");
@@ -56,9 +54,7 @@ function eliminar(id){
   });
 }
 
-//editar documentos
-
-
+//EDITAR COMENTARIOS
 function editar(id,nombre,apellido,fecha){
 
 document.getElementById('nombre').value = nombre;
@@ -86,14 +82,9 @@ boton.onclick = function(){
       // The document probably doesn't exist.
       console.error("Error updating document: ", error);
   });
-
-
 }
-
-
 }
-
-//boton de cerrar sesison
+//BOTON DE CERRAR SESION
 let btnClosed = document.getElementById('btnClosed');
 //FUNCION CERRAR SESIÓN
 const cerrarSesion = () =>{
