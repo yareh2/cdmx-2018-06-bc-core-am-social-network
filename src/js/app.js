@@ -1,9 +1,4 @@
-firebase.initializeApp({
-  apiKey: "AIzaSyCAqC6yR2WZZP4YPZWkOnrHUHR2rIJBbtc",
-  authDomain: "red-social-developers.firebaseapp.com",
-  projectId: "red-social-developers"
-});
-
+initializeFirebase();
 // INICIALIZACION DE CLOUD FIRESTORE THROUGH FIREBASE
 var db = firebase.firestore();
 //FUNCION PARA GUARDAR LOS COMENTARIOS

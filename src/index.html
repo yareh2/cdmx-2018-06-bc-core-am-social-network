@@ -1,30 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCAqC6yR2WZZP4YPZWkOnrHUHR2rIJBbtc",
-    authDomain: "red-social-developers.firebaseapp.com",
-    databaseURL: "https://red-social-developers.firebaseio.com",
-    projectId: "red-social-developers",
-    storageBucket: "red-social-developers.appspot.com",
-    messagingSenderId: "825889803259"
-  };
-  firebase.initializeApp(config);
-</script>
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
     <div class="container mt-3">
         <nav class="navbar navbar-dark bg-primary">
         <a class="navbar-brand">Sharing Code</a>
@@ -33,12 +19,13 @@
             <input id="password2" type="password" placeholder="Password" class="form-control form-control-sm mr-sm-2">
            <button class="btn btn-primary btn-sm" onclick="entry()">Acceder</button>
            <button class="btn btn-primary btn-sm my-2 my-sm-0 btn-sm ml-2" data-toggle="modal" data-target="#exampleModal">Registrar</button>
-           <button class="btn btn-danger my-2 my-sm-0 btn-sm ml-2" id="btnGoogle" onclick="loginGoogle()">Google+</button>
+           <button class="btn btn-danger my-2 my-sm-0 btn-sm ml-2" id="btnGoogle">Google+</button>
+           <button class="btn btn-primary my-2 my-sm-0 btn-sm ml-2" id="btnFace">Facebook+</button>
         </div>
         </nav>
     </div>
     <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -98,13 +85,16 @@
           </a>
         </div>
       </div>
-    <!--<button onclick="loginFace()">
-            Iniciar sesión con Facebook
-    </button>-->
-    <script src="js/index.js"></script>
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-</body>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--JavaScript-->
+    <script src="js/firebase.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
 

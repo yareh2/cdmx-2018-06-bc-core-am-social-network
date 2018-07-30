@@ -1,3 +1,6 @@
+initializeFirebase();
+initializeGoogle();
+initializeFace();
 //FUNCION PARA EL REGISTRO DE USUARIOS
 let register = () => {
     let email = document.getElementById('email').value;
@@ -85,50 +88,4 @@ user.sendEmailVerification()
   console.log(error);
 });
 }
-//LOGIN CON GOOGLE
-let loginGoogle = () =>{
-    var provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth()
-    .signInWithPopup(provider)
-    .then(function(result) {
-        console.log(result.user);
-        document.getElementById('btnGoogle').style.display = 'none';
-        // This gives you a Google Access Token. You can use it to access the Google API.
-        var token = result.credential.accessToken;
-        // The signed-in user info.
-        var user = result.user;
-        // ...
-      }).catch(function(error) {
-        // Handle Errors here.
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        // The email of the user's account used.
-        var email = error.email;
-        // The firebase.auth.AuthCredential type that was used.
-        var credential = error.credential;
-        // ...
-      });
 
-}
-/*//LOGIN CON FACEBOOK
-let loginFace = () =>{
-    var provider = new firebase.auth.FacebookAuthProvider();
-    firebase.auth().signInWithPopup(provider)
-    .then(function(result) {
-        console.log(result.user);
-        // This gives you a Facebook Access Token. You can use it to access the Facebook API.
-        var token = result.credential.accessToken;
-        // The signed-in user info.
-        var user = result.user;
-        // ...
-      }).catch(function(error) {
-        // Handle Errors here.
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        // The email of the user's account used.
-        var email = error.email;
-        // The firebase.auth.AuthCredential type that was used.
-        var credential = error.credential;
-        // ...
-      });
-}*/
