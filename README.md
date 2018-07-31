@@ -138,7 +138,10 @@ Para nuestro prototipo utilizamos mockflow.
 
 
 ![captura](./src/images/captura.PNG)
-
+![google](./src/images/google.PNG)
+![muro](./src/images/muro.PNG)
+![contactos](./src/images/contactos.PNG)
+![chat](./src/images/chat.PNG)
 
 * Testear el prototipo con usuarios.
 * Asegurarte de que la implementación en código siga los lineamientos del
