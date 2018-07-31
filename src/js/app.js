@@ -33,7 +33,7 @@ db.collection("users").onSnapshot((querySnapshot) => {
 
           <td>${doc.data().first}</td>
 
-          <button class="btn btn-info my-2 my-sm-0 btn-sm ml-2"onclick ="eliminar('${doc.id}')"><span class="glyphicon glyphicon-trash"></span></button>
+          <button class="btn btn-danger my-2 my-sm-0 btn-sm ml-2"onclick ="eliminar('${doc.id}')"><span class="glyphicon glyphicon-trash"></span></button>
           <button class="btn btn-info my-2 my-sm-0 btn-sm ml-2"onclick ="editar('${doc.id}','${doc.data().first}','${doc.data().last}','${doc.data().born}')"><span class="glyphicon glyphicon-pencil"></span></button>
 
 `
