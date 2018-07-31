@@ -170,7 +170,7 @@ Además, en determinados lugares del mundo, como en el caso de Nueva York, el es
 * Hacer al menos 2 o 3 entrevistas con usuarios.
 
 
-#### prototipo de alta fidelidad.
+#### Prototipo de alta fidelidad.
 
 Para nuestro prototipo utilizamos mockflow e invision.
 
@@ -342,6 +342,23 @@ son de gran utilidad para resolver dudas sobre todo cuando se es novato o princi
 
 #### ¿Tomarías está red social como un medio de apoyo?
 ![Grafica7](./src/images/grafica7.png)
+
+## Testeando producto
+
+El producto se testeo con un cierto número de personas, esto con el fin de analizar si era agradable para el usuario, fácil de manipular e interactiva.
+
+####Usuario 1.
+![Usuario1](./src/images/usuario1.png)
+![Usuario2](./src/images/usuario2.png)
+
+####Usuario 2.
+![Usuario3](./src/images/usuario3.png)
+![Usuario4](./src/images/usuario4.png)
+
+####Usuario 3.
+![Usuario5](./src/images/usuario5.png)
+![Usuario6](./src/images/usuario6.png)
+ 
 
 
 ## Checklist
