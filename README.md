@@ -1,5 +1,9 @@
 # Creando una Red Social
 
+## Instalación
+
+Para poder interactuar con la red social Sharing Code es necesario acceder a la siguiente liga [link](https://dileyra.github.io/cdmx-2018-06-bc-core-am-social-network/src/), registrarte y listo ahora puedes compartir tú conocimiento en cuanto a código con toda una red de programadores…EXCELENTE!!!...
+
 ## Preámbulo
 
 Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. Las redes
@@ -13,13 +17,6 @@ sobre qué tipo de red social quiere, sólo nos dice que creemos la mejor que
 podamos, y que luego la convenzamos de lanzarla al mercado. Nos da ciertos temas
 en los que le gustaría invertir:
 
-### UX
-
-__BENCHMARK__
-
-La importancia del benchmarking no se encuentra en la detallada mecánica de la comparación, sino en la medición del impacto que pueden tener estas comparaciones sobre los comportamientos. Se puede considerar como un proceso útil y necesario para llegar a realizar mejoras y cambios.
-
-Por otro lado, cabe destacar la faceta innovadora de este tipo de gestión denominada benchmarking. Hablamos de innovación encontrando su sentido como herramienta que busca nuevas ideas, lo cual realiza copiando, rastreando, comparando, dentro de la legalidad y entre los principales líderes del sector, entre los competidores dentro de un mismo mercado.
 
 __USER FLOW__
 
@@ -60,7 +57,40 @@ Bettercodes, red social para compartir códigos open source para programadores w
 ### Twango
 No es una red social pero sí un recurso imprescindible para buscar proyectos de desarrollo web y ofertar tus presupuestos. Twango pone en contacto a empresas con programadores web. Si trabajas como desarrollador web freelance o tienes una empresa de diseño web, este es tu sitio
 
+__BENCHMARK COMPARATIVA ENTRE REDES SOCIALES__
 
+|   |Facebook   |  Twiter | Instagram  |Sharing Code   |
+|---|---|---|---|---|
+|  Logeo con usuario y contraseña | x | x | x | x |
+|  Logeo mediante otras redes sociales|   |   | x | x |
+|  Agregar amigos/seguir | x | x | x | x |
+|  Realizar comentarios | x | x | x | x |
+|  Perfil | x | x | x | x |
+|  Subir fotos | x | x | x | x |
+|  Me gusta | x | x | x | x |
+|  Creación de grupos | x | x |   | x |
+|  Subir documentos |   |   |   |  x |
+|  Eliminar comentarios | x | x | x | x |
+|  Editar comentarios | x | x | x | x |
+|  Otros idiomas | x | x | x | x |
+
+__BENCHMARK COMPARATIVA REDES SOCIALES SOLO PARA PROGRAMADORES__
+
+|   |  Sharing code |  Notas Web | Desarrollo Web  | Domestika  | Coder Wall  | Better Codes  |
+|---|---|---|---|---|---|---|
+| Compartir  | x |   |   |   |   |   |
+| Logueo con otras redes sociales  | x |   |   |   |   |   |
+| Subir y descargar recursos   | x | x |   | x |   |   |
+| Realizar, editar y eliminar comentarios  | x |   | x |   | x | x |
+| Reaccióm me gusta | x |   |   |   |   |   |
+| Bolsa de trabajo  |   | x |   | x |   |   |
+| Contador de usuarios  |   | x |   |   |   |   |
+| Cuenta con foros  |   |   | x | x |   |   |
+| Compartir   |   |   |   |   | x | x |
+| Enlazarse con otras comunidades  |   |   |   |   | x |   |
+| Otros idiomas  |   |   |   |   |   |   |
+
+## Introducción a las redes sociales
 
 “Las Redes son formas de interacción social, definida como un intercambio dinámico entre personas, grupos e instituciones en contextos de complejidad. Un sistema abierto y en construcción permanente que involucra a conjuntos que se identifican en las mismas necesidades y problemáticas y que se organizan para potenciar sus recursos.
 
@@ -238,9 +268,80 @@ y asi pudiera saber cuantas personas ha visto mi curriculum.
 llegaran a subir.
 
 
+##Entrevistas
 
+Se realizaron dos encuestas en la primera de ellas la finalidad era obtener un estudio más claro sobre qué tan demandantes son las redes sociales, el impacto que tienen y como podrían ayudar siendo orientadas a un tema en específico.
+A continuación, se anexan los resultados que se obtuvieron de la encuesta (La moda de los resultados):
+#### ¿En qué rango de edad te encuentras?
+Entre 20 y 30
 
+#### ¿Con que género te identificas?
+Femenino
+#### ¿Cuál es tu idioma?
+Español
 
+#### ¿Cuáles son las redes que más utilizas?
+Facebook
+
+#### ¿Con que frecuencia usas al día cada red social (Facebook)?
+Todo el tiempo 
+1 a 2 veces
+
+#### ¿Con que frecuencia usas al día cada red social (Instagram)?
+Casi nunca
+1  a 2 veces 
+
+#### ¿Con que frecuencia usas al día cada red social (twiter)?
+Casi nunca
+1  a 2 veces 
+
+#### ¿Con que frecuencia usas al día cada red social (Youtube)?
+Todo el tiempo
+1  a 2 veces 
+
+#### ¿Con que frecuencia usas al día cada red social (WhatSapp)?
+Todo el tiempo 
+
+#### ¿Conoces alguna red social donde hablen de programación?
+Si
+Slack
+Foros
+#### ¿En qué dispositivo utilizas más tus redes sociales?
+Celular
+
+En la segunda encuesta se logró analizar con la información obtenida si era conveniente apostar por una red social para programadores.
+A continuación, se muestran los resultados obtenidos con una muestra de 28 respuestas:
+
+#### ¿Qué opinas de los Foros como apoyo para los desarrolladores web?
+Son muy tecnicos
+Son útiles, pues representan una fuente en la cual se puede compartir y consultar información
+Excelente
+Buenos
+Would be great have such thing! Nowadays the only social network that I know where women can talk and change information about software development (including materials for study) is the facebook's groups. (Sorry about the english, I'm from laboratoria BR and don't know how to speak spanish)
+Creo que es bastante importante porque muchas veces otras personas ya tuvieron problemas y pueden guiar a los demás.
+Son una muy buena herramienta
+son de gran utilidad para resolver dudas sobre todo cuando se es novato o principiante
+
+#### ¿Crees que las redes sociales son de apoyo para compartir material e información sobre el desarrollo web?
+![Grafica1](./src/images/grafica1.png)
+
+#### ¿Conoces alguna red social exclusiva para desarrolladores web?
+![Grafica2](./src/images/grafica2.png)
+
+#### ¿Apostarías por una red social para desarrolladores web de habla hispana?
+![Grafica3](./src/images/grafica3.png)
+
+#### ¿Crees que es conveniente que la red social sea solo para desarrolladores web?
+![Grafica4](./src/images/grafica4.png)
+
+#### ¿Serias miembro activo en esta red social?
+![Grafica5](./src/images/grafica5.png)
+
+#### ¿Apoyarías a los demás miembros compartiendo tú conocimiento y/o resolviendo dudas?
+![Grafica6](./src/images/grafica6.png)
+
+#### ¿Tomarías está red social como un medio de apoyo?
+![Grafica7](./src/images/grafica7.png)
 
 
 ## Checklist
