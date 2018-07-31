@@ -137,7 +137,7 @@ Además, en determinados lugares del mundo, como en el caso de Nueva York, el es
 Para nuestro prototipo utilizamos mockflow.
 
 
-![registro](./images/captura.PNG)
+![captura](./src/images/captura.png)
 
 
 * Testear el prototipo con usuarios.
