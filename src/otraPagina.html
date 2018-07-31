@@ -12,19 +12,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-      <a href="#news"><button id="btnClosed">
-        <span class="glyphicon glyphicon-home"></span> Salir</button>
-      </a>
-      <a href="#news"><button id="btnPorfile" data-toggle="modal" data-target="#exampleModall">
-      <span class="glyphicon glyphicon-user"></span></button>
-      </a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
+      <div class="pos-f-t">
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-light  p-4">
+              <h4 class="text-info">Menú</h4>
+              <a href="#news"><button id="btnClosed">
+                <span class="glyphicon glyphicon-home"></span> Salir</button>
+                </a>
+                <a href="#news"><button id="btnPorfile" data-toggle="modal" data-target="#exampleModall">
+                <span class="glyphicon glyphicon-user"></span> Perfil</button>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-secondary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"  aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+      </div>
     <div class="container">
-      <h1>Comentarios</h1>
+      <h3 id="publicacion">Publicación</h3>
       <input type="text" id="nombre"placeholder="¿Qué estás pensando?" rows="5">
       <button class="btn btn-info my-3"id="boton"onclick="guardar()">Guardar</button>
       <div class="custom-file">
