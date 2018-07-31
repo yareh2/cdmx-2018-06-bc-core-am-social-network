@@ -347,15 +347,15 @@ son de gran utilidad para resolver dudas sobre todo cuando se es novato o princi
 
 El producto se testeo con un cierto número de personas, esto con el fin de analizar si era agradable para el usuario, fácil de manipular e interactiva.
 
-####Usuario 1.
+Usuario 1.
 ![Usuario1](./src/images/usuario1.png)
 ![Usuario2](./src/images/usuario2.png)
 
-####Usuario 2.
+Usuario 2.
 ![Usuario3](./src/images/usuario3.png)
 ![Usuario4](./src/images/usuario4.png)
 
-####Usuario 3.
+Usuario 3.
 ![Usuario5](./src/images/usuario5.png)
 ![Usuario6](./src/images/usuario6.png)
  
