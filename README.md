@@ -80,7 +80,7 @@ Las herramientas que proporcionan en general las redes sociales en Internet son:
 * Capacidad de crear nuevos enlaces mediante servicios de presentación y otras maneras de conexión social en línea.
 
 
-## h2  ¿Qué idiomas se hablan en redes sociales?
+## ¿Qué idiomas se hablan en redes sociales?
 
 Twitter, LinkedIn o Google+ son algunas de las redes sociales en las que tanto un usuario como una empresa pueden estar presentes. Uno de los puntos a destacar de la expansión del social media a nivel mundial, y de gran interés para las marcas, es el idioma que los usuarios utilizan en cada una de las redes. Pero antes de entrar en ello, veamos, a grandes rasgos, el panorama actual de las redes sociales.
 
@@ -91,7 +91,7 @@ Entre las principales redes, Google+ está a la cola junto a Pinterest, que sube
 
 IMAGEN
 
-### ¿Qué uso le dan los usuarios a las redes sociales?
+###¿Qué uso le dan los usuarios a las redes sociales?
 
 Uso principal en redes sociales: chatear, enviar mensajes, ver qué hacen tus contactos, entre otros.
 Seguimiento de marcas: el 83% de los usuarios sigue a alguna marca y más de la mitad de los usuarios se declara influido en sus decisiones de compra.
@@ -99,14 +99,14 @@ E-commerce y redes sociales: un 53% de los usuarios busca productos a través de
 Tipo de contenido: las fotos son el contenido que más se publica en redes sociales. Instagram es la red que mejor responde a esta tendencia y se ha reflejado en un aumento de su popularidad.
 
 
-## ¿Cómo se conectan los usuarios?
+###¿Cómo se conectan los usuarios?
 
  Un 91% de los usuarios accede a las redes sociales a través de su móvil. Comparando el acceso por dispositivos, los españoles prefieren acceder a las redes sociales desde el móvil a partir de las 4 de la tarde, mientras que la tablet es más nocturna y se utiliza más a partir de las 8:30. Facebook, YouTube o Twitter son las redes sociales más utilizadas tanto desde móviles como desde tablets.
 
 IMAGEN
 
 
-## ¿Qué deben hacer las marcas?
+###¿Qué deben hacer las marcas?
 
 La presencia en redes resulta relevante para crear un vínculo con los usuarios y obtener su confianza. Ante esta situación, las marcas se deben tomar muy en serio su comunicación online y para ello deben:
 
@@ -136,7 +136,10 @@ Además, en determinados lugares del mundo, como en el caso de Nueva York, el es
 
 Para nuestro prototipo utilizamos mockflow.
 
-![registro](../images/captura.PNG)
+
+![registro](./images/captura.PNG)
+
+
 * Testear el prototipo con usuarios.
 * Asegurarte de que la implementación en código siga los lineamientos del
   diseño.
@@ -196,9 +199,6 @@ En el proyecto de la *"red social"*, las primeras historias podrían ser:
 
 * Yo como usuario me gustaria en contrar informacion de utilidad en español.
 
-* Yo como usuario me gustaria subir imagenes
-
-* Yo como usuario 
 
 
 
