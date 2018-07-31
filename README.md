@@ -144,7 +144,7 @@ Además, en determinados lugares del mundo, como en el caso de Nueva York, el es
 
 Para nuestro prototipo utilizamos mockflow e invision.
 
-[Liga](https://projects.invisionapp.com/d/main#/console/14995962/311812131/preview)
+t[Liga](https://projects.invisionapp.com/d/main#/console/14995962/311812131/preview)
 
 
 ![captura](./src/images/captura.PNG)
@@ -210,7 +210,35 @@ En el proyecto de la *"red social"*, las primeras historias podrían ser:
 
 * Yo, como usuaria logueada quiero poder compartir posts de texto, imagen ó texto con imagen para comunicar mejor mis ideas.
 
-* Yo como usuario me gustaria en contrar informacion de utilidad en español.
+
+
+* 1.Hola mi nombre es diana tengo 23 años de edad estudie una carrera de Ingenieria en sistemas ,hasta el dia
+de hoy no he podido desarrollarme profesionalmente  me gustaria contar con una red social dirigida a programadores pero que contenga una bolsa de trabajo y donde pueda encontrar personas con mis mismos intereses.
+
+* Yo como usuario me gustaria poder registrarme
+
+* Yo como usuario me gustaria poder iniciar sesion ya se por correo,google,Facebook
+
+* Yo como usuario me gustaria poder contar con una bplsa de trabajo
+
+* Yo como usuario me gustaria poder subir mi curriculum en este mismo muro
+
+* Yo como usuario me gustaria contar con un perfil de usuario
+
+* Yo como usuario me gustaria poder recibir notificaciones y asi saber si ha visto  mi curriculum
+y asi pudiera saber cuantas personas ha visto mi curriculum.
+
+* 2.Hola mi nombre es leticia tengo 29 años no he podido terminar una carrera profesional ya que o tengo los recursos para poder costearla ademas que me encuentro con muchas limitantes para poder subir mi nivel academico, una de ella es el idioma no he podido estudiar alguno, me gustaria aprender ingles pues la mayoria de la informacion mas importante y que me ayudaria en mi aprendizaje esta en ingles me guataria una red social diversa donde todos puedan subir articulos ya traducidos o bien imagenes.
+
+* Yo como usuario me gustaria poder registrarme y recibir un correo de confirmacion
+
+* Yo como usuario me gustaria poder chatear con los usuarios
+
+* Yo como usuario me gustaria poder contar con un traductor para traducir los articulos que
+llegaran a subir.
+
+
+
 
 
 
