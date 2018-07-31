@@ -313,14 +313,21 @@ En la segunda encuesta se logró analizar con la información obtenida si era co
 A continuación, se muestran los resultados obtenidos con una muestra de 28 respuestas:
 
 #### ¿Qué opinas de los Foros como apoyo para los desarrolladores web?
-Son muy tecnicos
-Son útiles, pues representan una fuente en la cual se puede compartir y consultar información
-Excelente
-Buenos
-Would be great have such thing! Nowadays the only social network that I know where women can talk and change information about software development (including materials for study) is the facebook's groups. (Sorry about the english, I'm from laboratoria BR and don't know how to speak spanish)
-Creo que es bastante importante porque muchas veces otras personas ya tuvieron problemas y pueden guiar a los demás.
-Son una muy buena herramienta
-son de gran utilidad para resolver dudas sobre todo cuando se es novato o principiante
+* Son muy tecnicos
+
+* Son útiles, pues representan una fuente en la cual se puede compartir y consultar información
+
+* Excelente
+
+* Buenos
+
+* Would be great have such thing! Nowadays the only social network that I know where women can talk and change information about software development (including materials for study) is the facebook's groups. (Sorry about the english, I'm from laboratoria BR and don't know how to speak spanish)
+
+* Creo que es bastante importante porque muchas veces otras personas ya tuvieron problemas y pueden guiar a los demás.
+
+* Son una muy buena herramienta
+
+* Son de gran utilidad para resolver dudas sobre todo cuando se es novato o principiante
 
 #### ¿Crees que las redes sociales son de apoyo para compartir material e información sobre el desarrollo web?
 ![Grafica1](./src/images/grafica1.png)
