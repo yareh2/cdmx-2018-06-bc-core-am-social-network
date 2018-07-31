@@ -21,6 +21,10 @@ La importancia del benchmarking no se encuentra en la detallada mecánica de la 
 
 Por otro lado, cabe destacar la faceta innovadora de este tipo de gestión denominada benchmarking. Hablamos de innovación encontrando su sentido como herramienta que busca nuevas ideas, lo cual realiza copiando, rastreando, comparando, dentro de la legalidad y entre los principales líderes del sector, entre los competidores dentro de un mismo mercado.
 
+__USER FLOW__
+
+![Diagrama](./src/images/diagrama.PNG)
+
 ### PRINCIPALES REDES SOCIALES
 
 ### NotasWeb
@@ -91,7 +95,7 @@ Entre las principales redes, Google+ está a la cola junto a Pinterest, que sube
 
 IMAGEN
 
-###¿Qué uso le dan los usuarios a las redes sociales?
+### ¿Qué uso le dan los usuarios a las redes sociales?
 
 Uso principal en redes sociales: chatear, enviar mensajes, ver qué hacen tus contactos, entre otros.
 Seguimiento de marcas: el 83% de los usuarios sigue a alguna marca y más de la mitad de los usuarios se declara influido en sus decisiones de compra.
@@ -99,14 +103,14 @@ E-commerce y redes sociales: un 53% de los usuarios busca productos a través de
 Tipo de contenido: las fotos son el contenido que más se publica en redes sociales. Instagram es la red que mejor responde a esta tendencia y se ha reflejado en un aumento de su popularidad.
 
 
-###¿Cómo se conectan los usuarios?
+### ¿Cómo se conectan los usuarios?
 
  Un 91% de los usuarios accede a las redes sociales a través de su móvil. Comparando el acceso por dispositivos, los españoles prefieren acceder a las redes sociales desde el móvil a partir de las 4 de la tarde, mientras que la tablet es más nocturna y se utiliza más a partir de las 8:30. Facebook, YouTube o Twitter son las redes sociales más utilizadas tanto desde móviles como desde tablets.
 
 ![redes](./src/images/redes.png)
 
 
-###¿Qué deben hacer las marcas?
+### ¿Qué deben hacer las marcas?
 
 La presencia en redes resulta relevante para crear un vínculo con los usuarios y obtener su confianza. Ante esta situación, las marcas se deben tomar muy en serio su comunicación online y para ello deben:
 
@@ -116,7 +120,7 @@ Mejorar en la creación de contenido, que pueda ser usado en múltiples canales,
 * Adaptar sus contenidos a dispositivos móviles.
 * Ya hemos visto qué redes sociales son las más relevantes en nuestro país y qué uso dan los usuarios a estas.
 
-###¿pero en qué idiomas se habla en las redes?
+### ¿pero en qué idiomas se habla en las redes?
 
 Los idiomas más hablados en redes sociales
 Facebook es la red social en la que más idiomas se hablan con un total de 70. Por el contrario, LinkedIn cuenta tan solo con 17 idiomas.
