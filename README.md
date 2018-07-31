@@ -103,7 +103,7 @@ Tipo de contenido: las fotos son el contenido que más se publica en redes socia
 
  Un 91% de los usuarios accede a las redes sociales a través de su móvil. Comparando el acceso por dispositivos, los españoles prefieren acceder a las redes sociales desde el móvil a partir de las 4 de la tarde, mientras que la tablet es más nocturna y se utiliza más a partir de las 8:30. Facebook, YouTube o Twitter son las redes sociales más utilizadas tanto desde móviles como desde tablets.
 
-![FONDO](./src/images/fondo.png)
+![FONDO](./src/images/fondo.jpg)
 
 
 ###¿Qué deben hacer las marcas?
