@@ -128,6 +128,10 @@ Además, en determinados lugares del mundo, como en el caso de Nueva York, el es
 
 Además, en determinados lugares del mundo, como en el caso de Nueva York, el español, después del inglés, es el idioma más utilizado en la red Twitter.
 
+![idioma](./src/images/idioma.png)
+
+
+
 * Hacer un _benchamark_ de las principales redes sociales.
 * Hacer al menos 2 o 3 entrevistas con usuarios.
 
