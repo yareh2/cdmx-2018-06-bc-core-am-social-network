@@ -21,6 +21,10 @@ La importancia del benchmarking no se encuentra en la detallada mecánica de la 
 
 Por otro lado, cabe destacar la faceta innovadora de este tipo de gestión denominada benchmarking. Hablamos de innovación encontrando su sentido como herramienta que busca nuevas ideas, lo cual realiza copiando, rastreando, comparando, dentro de la legalidad y entre los principales líderes del sector, entre los competidores dentro de un mismo mercado.
 
+__USER FLOW__
+
+![Diagrama](./src/images/diagrama.PNG)
+
 ### PRINCIPALES REDES SOCIALES
 
 ### NotasWeb
@@ -80,7 +84,7 @@ Las herramientas que proporcionan en general las redes sociales en Internet son:
 * Capacidad de crear nuevos enlaces mediante servicios de presentación y otras maneras de conexión social en línea.
 
 
-## h2  ¿Qué idiomas se hablan en redes sociales?
+## ¿Qué idiomas se hablan en redes sociales?
 
 Twitter, LinkedIn o Google+ son algunas de las redes sociales en las que tanto un usuario como una empresa pueden estar presentes. Uno de los puntos a destacar de la expansión del social media a nivel mundial, y de gran interés para las marcas, es el idioma que los usuarios utilizan en cada una de las redes. Pero antes de entrar en ello, veamos, a grandes rasgos, el panorama actual de las redes sociales.
 
@@ -99,14 +103,14 @@ E-commerce y redes sociales: un 53% de los usuarios busca productos a través de
 Tipo de contenido: las fotos son el contenido que más se publica en redes sociales. Instagram es la red que mejor responde a esta tendencia y se ha reflejado en un aumento de su popularidad.
 
 
-## ¿Cómo se conectan los usuarios?
+### ¿Cómo se conectan los usuarios?
 
  Un 91% de los usuarios accede a las redes sociales a través de su móvil. Comparando el acceso por dispositivos, los españoles prefieren acceder a las redes sociales desde el móvil a partir de las 4 de la tarde, mientras que la tablet es más nocturna y se utiliza más a partir de las 8:30. Facebook, YouTube o Twitter son las redes sociales más utilizadas tanto desde móviles como desde tablets.
 
-IMAGEN
+![redes](./src/images/redes.png)
 
 
-## ¿Qué deben hacer las marcas?
+### ¿Qué deben hacer las marcas?
 
 La presencia en redes resulta relevante para crear un vínculo con los usuarios y obtener su confianza. Ante esta situación, las marcas se deben tomar muy en serio su comunicación online y para ello deben:
 
@@ -116,7 +120,7 @@ Mejorar en la creación de contenido, que pueda ser usado en múltiples canales,
 * Adaptar sus contenidos a dispositivos móviles.
 * Ya hemos visto qué redes sociales son las más relevantes en nuestro país y qué uso dan los usuarios a estas.
 
-###¿pero en qué idiomas se habla en las redes?
+### ¿pero en qué idiomas se habla en las redes?
 
 Los idiomas más hablados en redes sociales
 Facebook es la red social en la que más idiomas se hablan con un total de 70. Por el contrario, LinkedIn cuenta tan solo con 17 idiomas.
@@ -128,15 +132,27 @@ Además, en determinados lugares del mundo, como en el caso de Nueva York, el es
 
 Además, en determinados lugares del mundo, como en el caso de Nueva York, el español, después del inglés, es el idioma más utilizado en la red Twitter.
 
+![idioma](./src/images/idioma.png)
+
+
+
 * Hacer un _benchamark_ de las principales redes sociales.
 * Hacer al menos 2 o 3 entrevistas con usuarios.
 
 
 #### prototipo de alta fidelidad.
 
-Para nuestro prototipo utilizamos mockflow.
+Para nuestro prototipo utilizamos mockflow e invision.
 
-![registro](../images/captura.PNG)
+t[Liga](https://projects.invisionapp.com/d/main#/console/14995962/311812131/preview)
+
+
+![captura](./src/images/captura.PNG)
+![google](./src/images/google.PNG)
+![muro](./src/images/muro.PNG)
+![contactos](./src/images/contactos.PNG)
+![chat](./src/images/chat.PNG)
+
 * Testear el prototipo con usuarios.
 * Asegurarte de que la implementación en código siga los lineamientos del
   diseño.
@@ -194,11 +210,36 @@ En el proyecto de la *"red social"*, las primeras historias podrían ser:
 
 * Yo, como usuaria logueada quiero poder compartir posts de texto, imagen ó texto con imagen para comunicar mejor mis ideas.
 
-* Yo como usuario me gustaria en contrar informacion de utilidad en español.
 
-* Yo como usuario me gustaria subir imagenes
 
-* Yo como usuario 
+* 1.Hola mi nombre es diana tengo 23 años de edad estudie una carrera de Ingenieria en sistemas ,hasta el dia
+de hoy no he podido desarrollarme profesionalmente  me gustaria contar con una red social dirigida a programadores pero que contenga una bolsa de trabajo y donde pueda encontrar personas con mis mismos intereses.
+
+* Yo como usuario me gustaria poder registrarme
+
+* Yo como usuario me gustaria poder iniciar sesion ya se por correo,google,Facebook
+
+* Yo como usuario me gustaria poder contar con una bplsa de trabajo
+
+* Yo como usuario me gustaria poder subir mi curriculum en este mismo muro
+
+* Yo como usuario me gustaria contar con un perfil de usuario
+
+* Yo como usuario me gustaria poder recibir notificaciones y asi saber si ha visto  mi curriculum
+y asi pudiera saber cuantas personas ha visto mi curriculum.
+
+* 2.Hola mi nombre es leticia tengo 29 años no he podido terminar una carrera profesional ya que o tengo los recursos para poder costearla ademas que me encuentro con muchas limitantes para poder subir mi nivel academico, una de ella es el idioma no he podido estudiar alguno, me gustaria aprender ingles pues la mayoria de la informacion mas importante y que me ayudaria en mi aprendizaje esta en ingles me guataria una red social diversa donde todos puedan subir articulos ya traducidos o bien imagenes.
+
+* Yo como usuario me gustaria poder registrarme y recibir un correo de confirmacion
+
+* Yo como usuario me gustaria poder chatear con los usuarios
+
+* Yo como usuario me gustaria poder contar con un traductor para traducir los articulos que
+llegaran a subir.
+
+
+
+
 
 
 
