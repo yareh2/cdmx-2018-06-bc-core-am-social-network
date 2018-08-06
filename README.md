@@ -170,7 +170,7 @@ Además, en determinados lugares del mundo, como en el caso de Nueva York, el es
 * Hacer al menos 2 o 3 entrevistas con usuarios.
 
 
-#### prototipo de alta fidelidad.
+#### Prototipo de alta fidelidad.
 
 Para nuestro prototipo utilizamos mockflow e invision.
 
@@ -313,14 +313,21 @@ En la segunda encuesta se logró analizar con la información obtenida si era co
 A continuación, se muestran los resultados obtenidos con una muestra de 28 respuestas:
 
 #### ¿Qué opinas de los Foros como apoyo para los desarrolladores web?
-Son muy tecnicos
-Son útiles, pues representan una fuente en la cual se puede compartir y consultar información
-Excelente
-Buenos
-Would be great have such thing! Nowadays the only social network that I know where women can talk and change information about software development (including materials for study) is the facebook's groups. (Sorry about the english, I'm from laboratoria BR and don't know how to speak spanish)
-Creo que es bastante importante porque muchas veces otras personas ya tuvieron problemas y pueden guiar a los demás.
-Son una muy buena herramienta
-son de gran utilidad para resolver dudas sobre todo cuando se es novato o principiante
+* Son muy tecnicos
+
+* Son útiles, pues representan una fuente en la cual se puede compartir y consultar información
+
+* Excelente
+
+* Buenos
+
+* Would be great have such thing! Nowadays the only social network that I know where women can talk and change information about software development (including materials for study) is the facebook's groups. (Sorry about the english, I'm from laboratoria BR and don't know how to speak spanish)
+
+* Creo que es bastante importante porque muchas veces otras personas ya tuvieron problemas y pueden guiar a los demás.
+
+* Son una muy buena herramienta
+
+* Son de gran utilidad para resolver dudas sobre todo cuando se es novato o principiante
 
 #### ¿Crees que las redes sociales son de apoyo para compartir material e información sobre el desarrollo web?
 ![Grafica1](./src/images/grafica1.png)
@@ -342,6 +349,23 @@ son de gran utilidad para resolver dudas sobre todo cuando se es novato o princi
 
 #### ¿Tomarías está red social como un medio de apoyo?
 ![Grafica7](./src/images/grafica7.png)
+
+## Testeando producto
+
+El producto se testeo con un cierto número de personas, esto con el fin de analizar si era agradable para el usuario, fácil de manipular e interactiva.
+
+Usuario 1.
+![Usuario1](./src/images/usuario1.png)
+![Usuario2](./src/images/usuario2.png)
+
+Usuario 2.
+![Usuario3](./src/images/usuario3.png)
+![Usuario4](./src/images/usuario4.png)
+
+Usuario 3.
+![Usuario5](./src/images/usuario5.png)
+![Usuario6](./src/images/usuario6.png)
+ 
 
 
 ## Checklist

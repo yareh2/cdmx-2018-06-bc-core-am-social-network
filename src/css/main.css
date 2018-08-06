@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Open+Sans:300,400,600,700,800');
+
+.navbar-brand{
+    font-family: black-rose;
+}
+.logo {
+    width: 128px;
+    border-radius: 7px;
+    padding: 2%, 2%, 2%, 35%;
+    left: 5%;
+    width: 60px;
+    
+  }

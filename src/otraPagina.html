@@ -16,23 +16,23 @@
           <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-light  p-4">
               <h4 class="text-info">Menú</h4>
-              <a href="#news"><button id="btnClosed">
+              <a><button id="btnClosed">
                 <span class="glyphicon glyphicon-home"></span> Salir</button>
                 </a>
-                <a href="#news"><button id="btnPorfile" data-toggle="modal" data-target="#exampleModall">
+                <a><button id="btnPorfile" data-toggle="modal" data-target="#exampleModall">
                 <span class="glyphicon glyphicon-user"></span> Perfil</button>
             </div>
           </div>
           <nav class="navbar navbar-dark bg-secondary">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"  aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span>Menú</span>
             </button>
           </nav>
       </div>
     <div class="container">
       <h3 id="publicacion">Publicación</h3>
       <input type="text" id="nombre"placeholder="¿Qué estás pensando?" rows="5">
-      <button class="btn btn-info my-3"id="boton"onclick="guardar()">Guardar</button>
+      <button class="btn btn-success my-3"id="boton"onclick="guardar()">Guardar</button>
       <div class="custom-file">
         <input type="file" class="custom-file-input" id="customFileLang" lang="es">
         <label class="custom-file-label" for="customFileLang">
@@ -60,7 +60,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
